@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  git-octopus:
+    image:  ghcr.io/r2d2bzh/git-octopus:${VERSION:-dev}
+    build:
+      context: .
+
